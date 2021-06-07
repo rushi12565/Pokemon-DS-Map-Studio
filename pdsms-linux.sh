@@ -20,10 +20,10 @@ command -v java >/dev/null 2>&1 || {
 
 # download PDSMS 2.1 to local user applications
 cd ~/.local/share/applications/ || exit
-wget "https://github.com/Trifindo/Pokemon-DS-Map-Studio/releases/download/2.1/Pokemon.DS.Map.Studio-2.1.zip"
-unzip "Pokemon.DS.Map.Studio-2.1.zip"
+wget "https://github.com/AdAstra-LD/Pokemon-DS-Map-Studio/releases/download/v2.1.1a/Pokemon.DS.Map.Studio-2.1.1a.zip"
+unzip "Pokemon.DS.Map.Studio-2.1.a.zip"
 # remove the downloaded archive
-rm -f "Pokemon.DS.Map.Studio-2.1.zip"
+rm -f "Pokemon.DS.Map.Studio-2.1..zip"
 
 # download icon
 wget "https://github.com/Trifindo/Pokemon-DS-Map-Studio/raw/master/src/main/resources/icons/programIconHD.png"
